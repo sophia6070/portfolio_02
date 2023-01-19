@@ -1,7 +1,39 @@
+ul {
+  list-style: none;
+}
+
 body {
   background-color: #a97ce9;
 }
 
 .logo {
   padding: 40px 40px;
+}
+
+.text_box {
+  margin-left: 156px;
+}
+
+.text_box h3 {
+  font-size: 64px;
+  color: transparent;
+}
+
+.text_box h1 {
+  font-size: 128px;
+  color: transparent;
+}
+
+.text-stroke_01 {
+  -webkit-text-stroke: 1px #fff;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 3px #fff;
+}
+
+.hand {
+  position: absolute;
+  top: 40%;
+  right: 10%;
 }
