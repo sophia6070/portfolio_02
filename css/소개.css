@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
   list-style: none;
 }
@@ -11,7 +22,9 @@ body {
 }
 
 .text_box {
-  margin-left: 156px;
+  /* text-align: center; */
+  margin-left: 750px;
+  margin-top: 100px;
 }
 
 .text_box h3 {
@@ -34,6 +47,30 @@ body {
 
 .hand {
   position: absolute;
-  top: 40%;
+  top: 20%;
   right: 10%;
+}
+
+.bottom {
+  margin-top: 300px;
+}
+
+.bottom ul {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 1000px;
+  /* height: 500px; */
+}
+
+.bottom ul li > a {
+  font-size: 24px;
+  color: #3e547d;
+  font-weight: 600;
+}
+
+.bottom ul li p {
+  font-size: 18px;
+  padding: 10px 0;
+  color: #666;
 }
