@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,37 +16,20 @@ ul {
 }
 
 body {
-  background-image: linear-gradient(45deg, #2f3458, #86b7eb, #7c6fc5, #33335c);
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-}
-
-.header {
-  display: flex;
-}
-.header .logo {
-  padding: 40px 40px;
-}
-
-.header p {
-  font-size: 24px;
-  color: #fff;
-  margin: 0 auto;
-  margin-top: 40px;
+  font-family: 'Inria Serif', serif;
+  font-family: 'Inter', sans-serif;
+  background-color: #ddd5d2;
 }
 
 h1 {
-  font-size: 150px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-size: 100px;
   color: transparent;
+  text-align: center;
+  margin-top: 40px;
 }
 
-.text-stroke {
-  -webkit-text-stroke: 3px #fff;
+.text-stroke_01 {
+  -webkit-text-stroke: 2px #3e547d;
 }
 
 .side {
@@ -53,7 +38,7 @@ h1 {
   right: -300px;
   height: 100vh;
   width: 300px;
-  background-color: #ddd5d2;
+  background-color: #303458;
   padding: 30px;
   transition: 0.3s;
   color: #303458;
@@ -68,7 +53,7 @@ h1 {
   padding: 20px 0;
   font-size: 20px;
   font-weight: 600;
-  color: #303458;
+  color: #ddd5d2;
   cursor: pointer;
 }
 
@@ -87,7 +72,7 @@ h1 {
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
-  background-color: #ddd5d2;
+  background-color: #303458;
   line-height: 50px;
   text-align: center;
   font-size: 24px;
