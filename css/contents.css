@@ -32,6 +32,35 @@ h1 {
   -webkit-text-stroke: 2px #3e547d;
 }
 
+.main {
+  width: 1200px;
+  height: 600px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.main ul {
+  display: flex;
+}
+
+.main ul h3 {
+  font-size: 128px;
+  font-weight: 700;
+  font-family: 'Inria Serif', serif;
+  color: #303458;
+  /* padding: 100px 0; */
+}
+
+.main ul h4 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Inria Serif', serif;
+  color: #303458;
+  /* padding: 100px 0; */
+}
+
 .side {
   position: fixed;
   top: 0;
