@@ -1,11 +1,20 @@
-h3 {
+.wrapper {
+  height: 100px;
+  margin-left: 1050px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  /*This part is important for centering*/
+  display: grid;
+  /* place-items: center; */
+}
+
+/* h3 {
   font-size: 64px;
   color: transparent;
   margin-top: 100px;
-  /* margin-left: 300px; */
   margin-bottom: 160px;
   text-align: center;
-}
+} */
 
 .content ul {
   display: flex;
