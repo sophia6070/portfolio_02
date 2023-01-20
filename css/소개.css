@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,7 @@ ul {
 
 body {
   background-color: #a97ce9;
+  font-family: 'Inter', sans-serif;
 }
 
 .logo {
@@ -23,11 +26,74 @@ body {
 
 .text_box {
   /* text-align: center; */
-  margin-left: 750px;
-  margin-top: 100px;
+  /* margin-left: 750px;
+  margin-top: 100px; */
 }
 
-.text_box h3 {
+.wrapper {
+  height: 100px;
+  margin-left: 750px;
+
+  /*This part is important for centering*/
+  display: grid;
+  /* place-items: center; */
+}
+
+.typing-demo {
+  width: 430px;
+  animation: typing 1s steps(20), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 64px;
+  color: #fff;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.wrapper_02 {
+  height: 120px;
+  margin-left: 750px;
+
+  /*This part is important for centering*/
+  display: grid;
+  /* place-items: center; */
+}
+
+.wrapper_02 .typing-demo {
+  width: 630px;
+  animation: typing 5s steps(60), blink 1s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* .text_box h3 {
   font-size: 64px;
   color: transparent;
 }
@@ -49,7 +115,7 @@ body {
   position: absolute;
   top: 20%;
   right: 10%;
-}
+} */
 
 .bottom {
   margin-top: 300px;
@@ -72,5 +138,5 @@ body {
 .bottom ul li p {
   font-size: 20px;
   padding: 10px 0;
-  color: #666;
+  color: #ddd;
 }
