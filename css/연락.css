@@ -1,0 +1,19 @@
+h3 {
+  font-size: 64px;
+  color: transparent;
+  margin-top: 100px;
+  /* margin-left: 300px; */
+  margin-bottom: 160px;
+  text-align: center;
+}
+
+.content ul {
+  display: flex;
+  gap: 50px;
+  padding: 35px 0;
+  margin-left: 1050px;
+}
+
+.content ul li {
+  font-size: 32px;
+}
