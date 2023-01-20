@@ -44,7 +44,7 @@ h1 {
   display: flex;
 }
 
-.nav > li {
+.nav li {
   float: left;
   text-align: center;
   font-size: 128px;
@@ -53,35 +53,36 @@ h1 {
   color: #303458;
   line-height: 40px;
   position: relative;
-
   padding: 10px 10px;
+  margin-bottom: 100px;
 }
 
-.my_menu a {
-  font-size: 50px;
+.nav li a {
+  font-size: 90px;
 }
 
-.subnav a {
-  font-size: 30px;
-}
-
-.subnav li {
-  position: absolute;
-  /* width: 260px; */
-  display: flex;
-}
-
-.nav > a:hover {
-  transition-duration: 0.5s;
+.nav li a:hover {
   text-decoration: underline;
 }
 
-.nav > li:hover .subnav {
-  transition-duration: 1s;
+.nav_02 li {
+  float: left;
+  text-align: center;
+  font-size: 128px;
+  font-weight: 700;
+  font-family: 'Inria Serif', serif;
+  color: #303458;
+  line-height: 40px;
+  position: relative;
+  padding: 10px 10px;
 }
 
-.main .nav_02 {
-  margin-top: 200px;
+.nav_02 li a {
+  font-size: 90px;
+}
+
+.nav_02 li a:hover {
+  text-decoration: underline;
 }
 
 .side {
