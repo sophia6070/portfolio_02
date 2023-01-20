@@ -27,23 +27,61 @@
         </div>
       </div>
       <div class="main">
-      <div class="text">
-          <ul>
-            <h3>1</h3>
-            <h4><a href="">DESIGN</a></h4>
-            <h3>2</h3>
-            <h4><a href="">UI/UX DESIGN</a></h4>
+        <ul class="nav">
+          <li>1</li>
+          <li class="my_menu">
+            <a href="">DESIGN</a>
+            <ul class="subnav">
+              <li><a href="#x">Movie Poster</a></li>
+              <li><a href="#x"> Book Cover</a></li>
+              <li><a href="#x">Nail Event</a></li>
+              <li><a href="#x">Mockup </a></li>
+            </ul>
+          </li>
+          <li>2</li>
+          <li class="my_menu">
+            <a href="">UI/UX DESIGN</a>
+            <ul class="subnav">
+              <li><a href="#x">Travel</a></li>
+              <li><a href="#x">Ticket</a></li>
+              <li><a href="#x">Music</a></li>
+              <li><a href="#x">Sign in</a></li>
+            </ul>
+          </li>
         </ul>
-          <ul>
-            <h3>3</h3>
-            <h4><a href="">BRAND CI</a></h4>
-            <h3>4</h3>
-            <h4><a href="">PUBLISHING</a></h4>
-        </ul>
+        <ul class="nav_02">
+         <li>3</li>
+          <li class="my_menu">
+            <a href="">BRAND CI</a>
+            <ul class="subnav">
+              <li><a href="#x">SSAL CAFE</a></li>
+               
+            </ul>
+          </li>
+           <li>4</li>
+          <li class="my_menu">
+            <a href="">PUBLISHING</a>
+            <ul class="subnav">
+              <li><a href="#x">Galaxy</a></li>
+              <li><a href="#x">Send A Mail </a></li>
+              <li><a href="#x">Dokdo Tourism</a></li>
+              <li><a href="#x">Netflix</a></li>
+            </ul>
+          </li>
       </div>
     </div>
 
     <script>
+      var myMenu = $('.my_menu')
+      var subNav = $('.subnav')
+
+      myMenu.on('mouseenter', function () {
+        subNav.fadeIn()
+      })
+      myMenu.on('mouseleave', function () {
+        subNav.fadeOut()
+      })
+
       $('.btn').click(function () {
         $('.side').toggleClass('active')
 

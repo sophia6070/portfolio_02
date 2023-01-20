@@ -34,31 +34,54 @@ h1 {
 
 .main {
   width: 1200px;
-  height: 600px;
+  height: 800px;
   background-color: red;
   margin: 0 auto;
   margin-top: 100px;
-  position: relative;
 }
 
 .main ul {
   display: flex;
 }
 
-.main ul h3 {
+.nav > li {
+  float: left;
+  text-align: center;
   font-size: 128px;
   font-weight: 700;
   font-family: 'Inria Serif', serif;
   color: #303458;
-  /* padding: 100px 0; */
+  line-height: 40px;
+  position: relative;
+
+  padding: 10px 10px;
 }
 
-.main ul h4 {
+.my_menu a {
   font-size: 50px;
-  font-weight: 700;
-  font-family: 'Inria Serif', serif;
-  color: #303458;
-  /* padding: 100px 0; */
+}
+
+.subnav a {
+  font-size: 30px;
+}
+
+.subnav li {
+  position: absolute;
+  /* width: 260px; */
+  display: flex;
+}
+
+.nav > a:hover {
+  transition-duration: 0.5s;
+  text-decoration: underline;
+}
+
+.nav > li:hover .subnav {
+  transition-duration: 1s;
+}
+
+.main .nav_02 {
+  margin-top: 200px;
 }
 
 .side {
