@@ -32,8 +32,8 @@ body {
 
 .wrapper {
   height: 100px;
-  margin-left: 750px;
-  margin-top: 150px;
+  margin-left: 700px;
+  margin-top: 60px;
   /*This part is important for centering*/
   display: grid;
   /* place-items: center; */
@@ -63,7 +63,7 @@ body {
 
 .wrapper_02 {
   height: 120px;
-  margin-left: 750px;
+  margin-left: 700px;
 
   /*This part is important for centering*/
   display: grid;
@@ -118,7 +118,7 @@ body {
 } */
 
 .bottom {
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 .bottom ul {

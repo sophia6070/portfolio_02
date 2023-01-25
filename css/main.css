@@ -26,9 +26,9 @@ body {
 
 svg text {
   font-family: 'Staatliches', cursive;
-  font-size: 6em;
+  font-size: 100px;
   stroke: #fff;
-  stroke-width: 3px;
+  stroke-width: 2px;
   stroke-dasharray: 326px;
   animation: stroke 3s linear;
 }
