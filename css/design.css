@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,900);
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Lato;
+  color: white;
+}
+
+#page1 {
+  background: #303458;
+}
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.stage {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tabled,
+.middled {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.thin {
+  font-weight: 500;
+}
+.thick {
+  font-weight: 900;
+}
+
+a {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #ddd5d2;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+[class^='link-'] {
+  display: inline-block;
+  margin: 2em;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #ddd5d2;
+}
+
+.link-6 a:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.link-6 a {
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+@-webkit-keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(1.1);
+  }
+  20% {
+    -webkit-transform: scale(1);
+  }
+  30% {
+    -webkit-transform: scale(1.1);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@-webkit-keyframes heartbeat-x {
+  0% {
+    -webkit-transform: scaleX(0);
+  }
+  10% {
+    -webkit-transform: scaleX(1);
+  }
+  20% {
+    -webkit-transform: scaleX(0);
+  }
+  30% {
+    -webkit-transform: scaleX(1);
+  }
+  40% {
+    -webkit-transform: scaleX(0);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+@keyframes heartbeat-x {
+  0% {
+    transform: scaleX(0);
+  }
+  10% {
+    transform: scaleX(1);
+  }
+  20% {
+    transform: scaleX(0);
+  }
+  30% {
+    transform: scaleX(1);
+  }
+  40% {
+    transform: scaleX(0);
+  }
+}
