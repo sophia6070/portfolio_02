@@ -27,10 +27,11 @@ body {
 svg text {
   font-family: 'Staatliches', cursive;
   font-size: 100px;
-  stroke: #fff;
+  stroke: #ddd5d2;
   stroke-width: 2px;
   stroke-dasharray: 326px;
   animation: stroke 3s linear;
+  margin: 0 auto;
 }
 @keyframes stroke {
   0% {
