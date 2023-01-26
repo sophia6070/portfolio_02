@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <title>book cover</title>
+
+    <link rel="stylesheet" href="/css/bookcover.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="/images/design/북커버/1.강원국의-글쓰기-표지.jpg" alt="" />
+      <img src="/images/design/북커버/2.마음의-여섯-얼굴-표지.jpg" alt="" />
+      <img src="/images/design/북커버/3.역사의-쓸모-표지.jpg" alt="" />
+    </div>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script>
+      $(function () {
+        $('.img').slick({
+          dots: true,
+          infinite: true,
+          speed: 500,
+          fade: true,
+          cssEase: 'linear',
+        })
+      })
+    </script>
+  </body>
+</html>
