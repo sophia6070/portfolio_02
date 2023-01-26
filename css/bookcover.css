@@ -1,3 +1,64 @@
 body {
   background-color: #59739e;
 }
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+/* 스타일 */
+/* 슬릭js 스타일 변경 st */
+/* 슬라이드 높이 변경  */
+
+/* 화살표 색상 변경*/
+.slick-prev:before,
+.slick-next:before {
+  color: #666 !important;
+  opacity: 1;
+}
+/* 화살표 위치 변경 */
+.slick-prev {
+  left: 20px !important ;
+  z-index: 9;
+}
+.slick-next {
+  right: 20px !important ;
+  z-index: 9;
+}
+
+/* 버튼 위치 변경 */
+.slick-dots {
+  bottom: 0 !important;
+}
+/* 버튼 색상 변경 (마우스 오버)  */
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  color: #666;
+}
+
+/* 버튼 색상 변경 (활성화)  */
+.slick-dots li.slick-active button:before {
+  color: #666 !important;
+}
+
+/* 버튼 색상 변경 (비활성화)  */
+.slick-dots li button:before {
+  color: #666 !important;
+}
+/* 슬릭js 스타일 변경 en */
+.slider-items {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item1 {
+  /* background-color: orangered; */
+  background-image: url(/images/design/북커버/1.강원국의-글쓰기-표지.jpg);
+}
+.item2 {
+  /* background-color: skyblue; */
+  background-image: url(/images/design/북커버/2.마음의-여섯-얼굴-표지.jpg);
+}
+.item3 {
+  /* background-color: darkcyan; */
+  background-image: url(/images/design/북커버/3.역사의-쓸모-표지.jpg);
+}
