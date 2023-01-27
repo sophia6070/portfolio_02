@@ -56,6 +56,10 @@ h2 {
   color: #ddd5d2;
 }
 
+h2:hover {
+  font-size: 80px;
+}
+
 .link-6 a:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
