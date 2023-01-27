@@ -118,7 +118,7 @@ body {
 } */
 
 .bottom {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .bottom ul {
@@ -130,13 +130,13 @@ body {
 }
 
 .bottom ul li > a {
-  font-size: 30px;
+  font-size: 20px;
   color: #3e547d;
   font-weight: 600;
 }
 
 .bottom ul li p {
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px 0;
   color: #ddd;
 }
