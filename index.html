@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script> -->
+
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -38,12 +37,8 @@
         $('.side').toggleClass('active')
 
         if ($('.side').hasClass('active')) {
-          //
-          //   $(this).find('i').css('transform', 'rotate(180deg)')
           $(this).find('img').attr('src', '../images/cover/open.png')
         } else {
-          //
-          //   $(this).find('i').css('transform', 'rotate(0)')
           $(this).find('img').attr('src', '../images/cover/close.png')
         }
       })
