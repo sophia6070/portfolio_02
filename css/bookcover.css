@@ -11,20 +11,21 @@ a {
 
 .book {
   width: 18.5em;
-  height: 23.0991em;
+  height: 26em;
   margin-top: -4.4em;
   position: relative;
-  -webkit-transform: perspective(60em) rotateX(58deg) rotateZ(-34deg) skewY(-7deg);
-  transform: perspective(60em) rotateX(58deg) rotateZ(-34deg) skewY(-7deg);
+  -webkit-transform: perspective(60em) rotateX(58deg) rotateZ(-10deg) skewY(-10deg);
+  transform: perspective(60em) rotateX(57deg) rotateZ(-40deg) skewY(-10deg);
   box-shadow: -1.4em 1.7em 0.3em -0.3em rgba(0, 0, 0, 0.8),
     -1.6em 1.8em 0.9em -0.2em rgba(0, 0, 0, 0.5), 0.3em 1.9em 1.3em rgba(0, 0, 0, 0.3);
   border-top-right-radius: 0.4em;
 }
 .book img {
-  border-top-right-radius: 0.4em;
+  border-top-right-radius: 0.4 em;
   box-sizing: border-box;
   width: 100%;
-  clip: rect(0em, 18.5em, 23.1em, 0em);
+  height: 358px;
+  clip: rect(0em, 18.5em, 27em, 0em);
   display: block;
   position: absolute;
   -webkit-filter: saturate(90%);
@@ -38,13 +39,13 @@ a {
 }
 .book:before {
   width: 105%;
-  height: 105%;
+  height: 100%;
   left: -5%;
   z-index: -1;
   background-repeat: no-repeat;
   background-image: linear-gradient(
       115deg,
-      transparent 2.8%,
+      transparent 3%,
       #3f3f3f 3%,
       #3f3f3f 16%,
       transparent 16%
