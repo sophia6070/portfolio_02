@@ -11,8 +11,9 @@ body {
 a {
   font-size: 40px;
   color: #000;
-  margin-top: 40px;
-  margin-left: 40px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
 }
 
 .slider {
