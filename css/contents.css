@@ -56,12 +56,12 @@ h1 {
   padding: 10px 10px;
   margin: 0 auto;
   margin-bottom: 100px;
-  margin-top: 70px;
+  margin-top: 50px;
   padding: 10px 10px;
 }
 
 .nav li a {
-  font-size: 90px;
+  font-size: 80px;
 }
 
 .nav li a:hover {
@@ -78,10 +78,14 @@ h1 {
   line-height: 40px;
   position: relative;
   padding: 10px 10px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 70px;
+  padding: 10px 10px;
 }
 
 .nav_02 li a {
-  font-size: 90px;
+  font-size: 80px;
 }
 
 .nav_02 li a:hover {

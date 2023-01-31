@@ -29,13 +29,13 @@ svg text {
   font-size: 100px;
   stroke: #ddd5d2;
   stroke-width: 2px;
-  stroke-dasharray: 326px;
+  stroke-dasharray: 300px;
   animation: stroke 3s linear;
   margin: 0 auto;
 }
 @keyframes stroke {
   0% {
-    stroke-dashoffset: 326px;
+    stroke-dashoffset: 300px;
   }
   100% {
     stroke-dashoffset: 0px;

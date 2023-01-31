@@ -25,43 +25,7 @@ a {
   margin-left: 40px;
 }
 
-/* .slider {
-  position: relative;
-}
 
-.slider_01 .item {
-  height: 800px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.slider_01 .item.item_01 {
-  background-image: url('../images/design/네일이벤트/1.png');
-}
-.slider_01 .item.item_02 {
-  background-image: url('../images/design/네일이벤트/2.png');
-}
-
-.arrows {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 30px;
-}
-
-.arrows img {
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-.arrows img:hover {
-  opacity: 0.9;
-} */
 
 .slider {
   width: 640px;
@@ -79,7 +43,7 @@ ul.imgs {
 }
 ul.imgs li {
   position: absolute;
-  left: 640px;
+  left: 550px;
   top: 200px;
   transition-delay: 1s;
   list-style: none;
