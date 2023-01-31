@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7E7DCD;
+}
+
+a {
+  font-size: 40px;
+  color: #000;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.container {
+    width: 1200px;
+    
+}
+
+img {
+    position: absolute;
+    top: 10%;
+    left: 28%;
+}
+
+h1 {
+    color: #fff;
+       position: absolute;
+    top: 80%;
+    left: 43%;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #000;
+}
