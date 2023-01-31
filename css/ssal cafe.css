@@ -31,7 +31,7 @@ a {
 
 ul {
     display: flex;
-    gap: 150px;
+    gap: 120px;
     margin-bottom: 300px;
 }
 
@@ -41,4 +41,8 @@ p {
  font-weight: 500;
  color: #000;
  margin-top: 550px;
+}
+
+span {
+  font-weight: 600;
 }
