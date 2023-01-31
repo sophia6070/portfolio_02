@@ -47,24 +47,25 @@
       item
         .eq(1)
         .mouseenter(function () {
-          $(this).find('p').stop().animate({ opacity: 1 }, time)
+          $(this).find('p').stop().animate({ bottom: 0 }, time)
           $(this).addClass('active')
         })
         .mouseleave(function () {
-          $(this).find('p').stop().animate({ opacity: 0 }, time)
+          $(this).find('p').stop().animate({ bottom: -40 }, time)
           $(this).removeClass('active')
         })
 
       item
         .eq(2)
         .mouseenter(function () {
-          $(this).find('p').stop().animate({ left: 0 }, time)
+          $(this).find('p').stop().animate({ bottom: 0 }, time)
           $(this).addClass('active')
         })
         .mouseleave(function () {
-          $(this).find('p').stop().animate({ left: '-100%' }, time)
+          $(this).find('p').stop().animate({ bottom: -40 }, time)
           $(this).removeClass('active')
         })
+
     </script>
   </body>
 </html>
