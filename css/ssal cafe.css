@@ -38,6 +38,7 @@ ul {
 p {
  text-align: center;
  font-size: 25px;
- color: #535353;
+ font-weight: 500;
+ color: #000;
  margin-top: 550px;
 }
