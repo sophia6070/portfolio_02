@@ -17,11 +17,15 @@ a {
 .container ul {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 200px;
+  
 }
+
 
 .container ul img {
   margin-right: 50px;
-  margin-top: 100px;
+  margin-top: 200px;
+  
 }
 
 .container ul h5 {

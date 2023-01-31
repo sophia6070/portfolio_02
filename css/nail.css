@@ -7,16 +7,7 @@
 body {
   background-color: #59739e;
 }
-/* 
-h1 {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
-img {
-  margin-left: 500px;
-} */
 
 a {
   font-size: 40px;
@@ -49,11 +40,7 @@ ul.imgs li {
   list-style: none;
   padding: 0;
   margin: 0;
-  border-radius: 30px;
-}
-ul.imgs li img {
-  border-radius: 30px;
-  border: 5px solid rgba(0, 0, 0, 0.3);
+  /* border-radius: 30px; */
 }
 
 .bullets {
