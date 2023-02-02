@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #7E7DCD;
+  background-color: #7e7dcd;
 }
 
 a {
@@ -17,32 +17,38 @@ a {
 }
 
 .container {
-    width: 1500px;
-    margin: 0 auto;
+  width: 1500px;
+  margin: 0 auto;
 }
 .logo {
-    width: 400px;
-    height: 400px;
-    margin-top: 300px;
-    margin-bottom: 300px;
-    margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  margin-top: 200px;
+  margin-left: 50px;
 }
-
 
 ul {
-    display: flex;
-    gap: 120px;
-    margin-bottom: 300px;
+  display: flex;
+  gap: 100px;
+  margin-bottom: 150px;
 }
 
-p {
- text-align: center;
- font-size: 25px;
- font-weight: 500;
- color: #000;
- margin-top: 550px;
+h5 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 300px;
 }
 
 span {
   font-weight: 600;
+}
+
+p {
+  color: #ddd;
+  position: absolute;
+  top: 400px;
+  left: 40%;
+  line-height: 1.6;
 }
