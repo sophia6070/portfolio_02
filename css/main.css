@@ -17,9 +17,7 @@ ul {
 }
 
 body {
-  /* background-image: linear-gradient(45deg, #2f3458, #86b7eb, #7c6fc5, #33335c);
-  background-repeat: no-repeat; */
-  background: #303458;
+  background-image: linear-gradient(45deg, #2f3458, #86b7eb, #7c6fc5, #33335c);
   width: 100%;
   height: 100%;
 }
@@ -27,8 +25,8 @@ body {
 svg text {
   font-family: 'Staatliches', cursive;
   font-size: 100px;
-  stroke: #ddd5d2;
-  stroke-width: 2px;
+  stroke: #fff;
+  stroke-width: 1.5px;
   stroke-dasharray: 300px;
   animation: stroke 3s linear;
   margin: 0 auto;
@@ -54,19 +52,6 @@ svg text {
   margin: 0 auto;
   margin-top: 40px;
 }
-
-/* h1 {
-  font-size: 150px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: transparent;
-}
-
-.text-stroke {
-  -webkit-text-stroke: 3px #fff;
-} */
 
 .side {
   position: fixed;
