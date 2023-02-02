@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>소개</title>
-    <!-- <link rel="stylesheet" href="../css/main.css" /> -->
-    <link rel="stylesheet" href="/css/소개.css" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/intro.css" />
+    <script src="../js/side.js"></script>
   </head>
   <body>
     <div class="container">
-      <a href="/index.html">
-        <div class="logo"><img src="/images/yesong/3.png" alt="" /></div>
-      </a>
+      <div class="header">
+        <a href="../index.html">
+          <img class="logo" src="../images/yesong/3.png" alt="" />
+        </a>
+      </div>
       <div class="text_box">
-        <!-- <h3 class="text-stroke_01">안녕하세요 :-)</h3>
-        <h1 class="text-stroke">정예송입니다.</h1> -->
         <div class="wrapper">
-          <div class="typing-demo">안녕하세요 :-)</div>
+          <div class="typing_01">안녕하세요 :-)</div>
         </div>
-        <div class="wrapper_02">
-          <div class="typing-demo">정예송입니다.</div>
+        <div class="wrapper">
+          <div class="typing_02">정예송입니다.</div>
         </div>
       </div>
-      <!-- <img class="hand" src="/images/cover/hand.png" alt="" /> -->
+
       <div class="bottom">
         <ul>
           <li>
@@ -49,6 +52,18 @@
             <p>Lorem ipsum dolor sit amet.</p>
           </li>
         </ul>
+      </div>
+
+      <!-- side_menu -->
+      <div class="side">
+        <ul>
+          <li><a href="./intro.html">소개</a></li>
+          <li><a href="./contents.html">작업물</a></li>
+          <li><a href="./contact.html">연락</a></li>
+        </ul>
+        <div class="btn">
+          <img src="../images/cover/open.png" alt="" />
+        </div>
       </div>
     </div>
   </body>

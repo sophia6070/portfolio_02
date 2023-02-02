@@ -1,0 +1,66 @@
+.text_box {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.wrapper {
+  padding: 20px 0;
+}
+
+.wrapper div {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.typing_01 {
+  width: 350px;
+  animation: typing 1s steps(20), blink 0.5s step-end infinite alternate;
+  font-size: 50px;
+}
+
+.typing_02 {
+  width: 500px;
+  animation: typing 5s steps(60), blink 1s step-end infinite alternate;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.bottom {
+  margin-top: 150px;
+}
+
+.bottom ul {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 1000px;
+  /* height: 500px; */
+}
+
+.bottom ul li > a {
+  font-size: 20px;
+  color: #3e547d;
+  font-weight: 600;
+}
+
+.bottom ul li p {
+  font-size: 16px;
+  padding: 10px 0;
+  color: #ddd;
+}

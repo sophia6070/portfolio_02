@@ -1,36 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
-}
-
-body {
-  background-image: linear-gradient(45deg, #2f3458, #86b7eb, #7c6fc5, #33335c);
+.title_box {
+  position: fixed;
+  top: 50%;
   width: 100%;
-  height: 100%;
+  transform: translateY(-50%);
 }
 
 svg text {
-  font-family: 'Staatliches', cursive;
-  font-size: 100px;
   stroke: #fff;
   stroke-width: 1.5px;
   stroke-dasharray: 300px;
   animation: stroke 3s linear;
-  margin: 0 auto;
 }
+
 @keyframes stroke {
   0% {
     stroke-dashoffset: 300px;
@@ -38,69 +19,4 @@ svg text {
   100% {
     stroke-dashoffset: 0px;
   }
-}
-.header {
-  display: flex;
-}
-.header .logo {
-  padding: 40px 40px;
-}
-
-.header p {
-  font-size: 24px;
-  color: #ddd;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-.side {
-  position: fixed;
-  top: 0;
-  right: -300px;
-  height: 100vh;
-  width: 300px;
-  background-color: #ddd5d2;
-  padding: 30px;
-  transition: 0.3s;
-  color: #303458;
-}
-
-.active {
-  right: 0;
-}
-
-.side ul li {
-  border-bottom: 1px solid #eee;
-  padding: 20px 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: #303458;
-  cursor: pointer;
-}
-
-.side ul li:hover {
-  text-decoration: underline;
-}
-
-.side ul li:last-child {
-  border: none;
-}
-
-.btn {
-  position: absolute;
-  top: 80%;
-  left: -16%;
-  transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
-  background-color: #ddd5d2;
-  line-height: 50px;
-  text-align: center;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.btn img {
-  width: 20px;
-  height: 20px;
 }

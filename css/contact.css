@@ -1,11 +1,6 @@
 .wrapper {
-  height: 100px;
-  margin-left: 780px;
-  margin-top: 70px;
-  margin-bottom: 80px;
-  /*This part is important for centering*/
-  display: grid;
-  /* place-items: center; */
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 .typing-demo {
@@ -17,18 +12,30 @@
   font-size: 50px;
   color: #fff;
   font-weight: 600;
+  margin: 0 auto;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 
 .content ul {
-  display: flex;
-  gap: 50px;
-  padding: 35px 0;
-  margin-left: 750px;
- 
+  width: 300px;
+  margin: 0 auto;
 }
 
 .content ul li {
+  display: flex;
   font-size: 20px;
-  
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0;
 }
