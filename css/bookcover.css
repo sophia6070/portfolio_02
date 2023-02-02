@@ -48,17 +48,12 @@ ul.imgs li {
   margin: 0;
   border-radius: none;
 }
-/* ul.imgs li img {
-  border-radius: 30px;
-  border: 5px solid rgba(0, 0, 0, 0.3);
-} */
 
 .bullets {
   position: absolute;
   left: 50%;
   top: 880px;
   transform: translateX(-50%);
-  
   bottom: 20px;
   z-index: 2;
 }
@@ -167,7 +162,6 @@ ul.imgs li {
   transform: scale(0.9);
   box-shadow: 14px -5px 35px -21px rgba(0, 0, 0, 0.66);
 }
-
 
 /* .book {
   width: 18.5em;
