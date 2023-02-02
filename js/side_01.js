@@ -5,11 +5,11 @@ $(function () {
     if ($('.side').hasClass('active')) {
       //
       //   $(this).find('i').css('transform', 'rotate(180deg)')
-      $(this).find('img').attr('src', '../images/close.png')
+      $(this).find('img').attr('src', '../images/cover/close.png')
     } else {
       //
       //   $(this).find('i').css('transform', 'rotate(0)')
-      $(this).find('img').attr('src', '../images/open.png')
+      $(this).find('img').attr('src', '../images/cover.open.png')
     }
   })
 })

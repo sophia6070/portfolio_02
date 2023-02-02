@@ -9,7 +9,7 @@ body {
 a {
   font-size: 40px;
   color: #000;
-  position: absolute;
+  position: fixed;
   top: 40px;
   left: 40px;
 }
@@ -18,14 +18,11 @@ a {
   display: flex;
   align-items: flex-end;
   margin-bottom: 200px;
-  
 }
-
 
 .container ul img {
   margin-right: 50px;
   margin-top: 200px;
-  
 }
 
 .container ul h5 {

@@ -11,7 +11,7 @@ body {
 a {
   font-size: 40px;
   color: #000;
-  position: absolute;
+  position: fixed;
   top: 40px;
   left: 40px;
 }
