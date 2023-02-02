@@ -13,8 +13,8 @@ body {
   font-size: 60px;
   font-weight: 500;
   color: #ddd5d2;
-  margin-top: 200px;
-  margin-bottom: 60px;
+  margin-top: 250px;
+  margin-bottom: 200px;
 }
 
 .menu {
@@ -31,7 +31,7 @@ body {
 
 .menu li a {
   font-size: 36px;
-  transition: font-size 0.3s;
+  transition: font-size 0.2s;
 }
 
 .menu li a:hover {

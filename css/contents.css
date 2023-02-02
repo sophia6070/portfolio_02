@@ -1,94 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Inter:wght@300;400;500;600;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
-}
-
 body {
   font-family: 'Inria Serif', serif;
   font-family: 'Inter', sans-serif;
-  background-color: #ddd5d2;
+  background: #ddd5d2;
+  height: initial;
 }
 
 h1 {
   font-size: 100px;
   color: transparent;
   text-align: center;
-  margin-top: 40px;
-}
-
-.text-stroke_01 {
+  margin-top: 160px;
   -webkit-text-stroke: 2px #3e547d;
 }
 
 .main {
-  width: 1300px;
-  height: 100vhpx;
-  /* background-color: red; */
+  width: 1200px;
   margin: 0 auto;
   margin-top: 100px;
 }
 
 .main ul {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .nav li {
-  float: left;
-  text-align: center;
-  font-size: 128px;
+  /* text-align: center; */
   font-weight: 700;
   font-family: 'Inria Serif', serif;
   color: #303458;
-  line-height: 40px;
-  position: relative;
-  padding: 10px 10px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  margin-top: 50px;
-  padding: 10px 10px;
+  padding: 30px 10px;
 }
 
 .nav li a {
-  font-size: 80px;
+  font-size: 100px;
+}
+
+.nav li a span {
+  font-size: 70px;
 }
 
 .nav li a:hover {
-  text-decoration: underline;
-}
-
-.nav_02 li {
-  float: left;
-  text-align: center;
-  font-size: 128px;
-  font-weight: 700;
-  font-family: 'Inria Serif', serif;
-  color: #303458;
-  line-height: 40px;
-  position: relative;
-  padding: 10px 10px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  margin-top: 70px;
-  padding: 10px 10px;
-}
-
-.nav_02 li a {
-  font-size: 80px;
-}
-
-.nav_02 li a:hover {
   text-decoration: underline;
 }
 

@@ -8,8 +8,6 @@ ul {
   list-style: none;
 }
 
-
-
 body {
   background-color: #59739e;
 }
@@ -31,7 +29,6 @@ a {
   display: flex;
 }
 
-
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -41,7 +38,6 @@ a {
 .cards li {
   position: relative;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .cards li img {
@@ -53,8 +49,6 @@ a {
 .cards li.active img {
   transform: scale(1.2);
 }
-
-
 
 .cards li p {
   position: absolute;
@@ -79,7 +73,7 @@ a {
 }
 
 .cards li:nth-child(3) p {
-     bottom: -40px;
+  bottom: -40px;
 }
 
 table {
