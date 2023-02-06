@@ -61,22 +61,13 @@ ul.imgs li img {
   height: 20px;
   cursor: pointer;
 }
-.slider
-  input[type='radio']:nth-child(1):checked
-  ~ .bullets
-  > label:nth-child(1) {
+.slider input[type='radio']:nth-child(1):checked ~ .bullets > label:nth-child(1) {
   background-color: #fff;
 }
-.slider
-  input[type='radio']:nth-child(2):checked
-  ~ .bullets
-  > label:nth-child(2) {
+.slider input[type='radio']:nth-child(2):checked ~ .bullets > label:nth-child(2) {
   background-color: #fff;
 }
-.slider
-  input[type='radio']:nth-child(3):checked
-  ~ .bullets
-  > label:nth-child(3) {
+.slider input[type='radio']:nth-child(3):checked ~ .bullets > label:nth-child(3) {
   background-color: #fff;
 }
 
