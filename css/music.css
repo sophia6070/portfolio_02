@@ -11,14 +11,14 @@ body {
 a {
   font-size: 40px;
   color: #000;
-  position: absolute;
+  position: fixed;
   top: 40px;
   left: 40px;
 }
 
 .slider {
   width: 640px;
-  height: 800px;
+  height: 900px;
   position: relative;
   margin: 0 auto;
 }
@@ -61,13 +61,22 @@ ul.imgs li img {
   height: 20px;
   cursor: pointer;
 }
-.slider input[type='radio']:nth-child(1):checked ~ .bullets > label:nth-child(1) {
+.slider
+  input[type='radio']:nth-child(1):checked
+  ~ .bullets
+  > label:nth-child(1) {
   background-color: #fff;
 }
-.slider input[type='radio']:nth-child(2):checked ~ .bullets > label:nth-child(2) {
+.slider
+  input[type='radio']:nth-child(2):checked
+  ~ .bullets
+  > label:nth-child(2) {
   background-color: #fff;
 }
-.slider input[type='radio']:nth-child(3):checked ~ .bullets > label:nth-child(3) {
+.slider
+  input[type='radio']:nth-child(3):checked
+  ~ .bullets
+  > label:nth-child(3) {
   background-color: #fff;
 }
 

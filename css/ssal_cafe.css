@@ -54,7 +54,7 @@ p {
 }
 
 .movie {
-  width: 500px;
-  height: 100vh;
   margin-bottom: 300px;
+  display: flex;
+  gap: 100px;
 }
