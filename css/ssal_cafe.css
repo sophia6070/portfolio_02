@@ -52,3 +52,9 @@ p {
   left: 40%;
   line-height: 1.6;
 }
+
+.movie {
+  width: 500px;
+  height: 100vh;
+  margin-bottom: 300px;
+}

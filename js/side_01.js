@@ -5,7 +5,7 @@ $(function () {
     if ($('.side').hasClass('active')) {
       //
       //   $(this).find('i').css('transform', 'rotate(180deg)')
-      $(this).find('img').attr('src', '../images/cover/close.png')
+      $(this).find('img').attr('src', '../images/cover.close.png')
     } else {
       //
       //   $(this).find('i').css('transform', 'rotate(0)')
